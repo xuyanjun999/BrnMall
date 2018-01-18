@@ -1,0 +1,1832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\xuyan\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_BrnMall.1030718401.00" t="ExcludeRecursive" />
+    <e p="E:\迅雷下载\BrnMall4.1.113\BrnMall" t="IncludeFlat">
+      <e p="1.Libraries" t="Include" />
+      <e p="2.Presentation" t="Include" />
+      <e p="3.Strategies" t="Include" />
+      <e p="4.Plugins" t="Include" />
+      <e p="BrnMall.sln" t="IncludeFlat" />
+      <e p="Libraries\BrnMall.Core" t="IncludeRecursive">
+        <e p="Asyn" t="Include">
+          <e p="BMAAsyn.cs" t="Include" />
+          <e p="IAsynStrategy.cs" t="Include" />
+          <e p="State" t="Include">
+            <e p="UpdateBrowseHistoryState.cs" t="Include" />
+            <e p="UpdateOnlineUserState.cs" t="Include" />
+            <e p="UpdateProductStatState.cs" t="Include" />
+            <e p="UpdatePVStatState.cs" t="Include" />
+            <e p="UpdateSearchHistoryState.cs" t="Include" />
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BMAException.cs" t="Include" />
+        <e p="BMAVersion.cs" t="Include" />
+        <e p="BrnMall.Core.csproj" t="IncludeRecursive" />
+        <e p="Cache" t="Include">
+          <e p="BMACache.cs" t="Include" />
+          <e p="CacheKeys.cs" t="Include" />
+          <e p="CacheManager" t="Include">
+            <e p="CacheByRegex.cs" t="Include" />
+            <e p="ICacheManager.cs" t="Include" />
+          </e>
+          <e p="ICacheStrategy.cs" t="Include" />
+        </e>
+        <e p="Cart" t="Include">
+          <e p="BMACart.cs" t="Include" />
+          <e p="ICartStrategy.cs" t="Include" />
+        </e>
+        <e p="Config" t="Include">
+          <e p="BMAConfig.cs" t="Include" />
+          <e p="IConfigStrategy.cs" t="Include" />
+          <e p="Info" t="Include">
+            <e p="CreditConfigInfo.cs" t="Include" />
+            <e p="EmailConfigInfo.cs" t="Include" />
+            <e p="EventConfigInfo.cs" t="Include" />
+            <e p="IConfigInfo.cs" t="Include" />
+            <e p="MallConfigInfo.cs" t="Include" />
+            <e p="MemcachedCacheConfigInfo.cs" t="Include" />
+            <e p="MemcachedCartConfigInfo.cs" t="Include" />
+            <e p="MemcachedSessionConfigInfo.cs" t="Include" />
+            <e p="RabbitMQOrderConfigInfo.cs" t="Include" />
+            <e p="RDBSConfigInfo.cs" t="Include" />
+            <e p="RedisNOSQLConfigInfo.cs" t="Include" />
+            <e p="SMSConfigInfo.cs" t="Include" />
+            <e p="UploadConfigInfo.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Data" t="Include">
+          <e p="BMAData.cs" t="Include" />
+          <e p="DbException.cs" t="Include" />
+          <e p="NOSQL" t="Include">
+            <e p="INOSQLStrategy" t="Include">
+              <e p="IOrderStrategy.cs" t="Include" />
+              <e p="IProductStrategy.cs" t="Include" />
+              <e p="IStoreStrategy.cs" t="Include" />
+              <e p="IUserStrategy.cs" t="Include" />
+            </e>
+          </e>
+          <e p="RDBS" t="Include">
+            <e p="IRDBSStrategy" t="Include">
+              <e p="IMallStrategy.cs" t="Include" />
+              <e p="IOrderStrategy.cs" t="Include" />
+              <e p="IProductStrategy.cs" t="Include" />
+              <e p="IPromotionStrategy.cs" t="Include" />
+              <e p="IRDBSStrategy.cs" t="Include" />
+              <e p="IStoreStrategy.cs" t="Include" />
+              <e p="IUserStrategy.cs" t="Include" />
+            </e>
+            <e p="RDBSHelper.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Domain" t="Include">
+          <e p="Mall" t="Include">
+            <e p="AdvertInfo.cs" t="Include" />
+            <e p="AdvertPositionInfo.cs" t="Include" />
+            <e p="BannedIPInfo.cs" t="Include" />
+            <e p="CreditAction.cs" t="Include" />
+            <e p="CreditLogInfo.cs" t="Include" />
+            <e p="FilterWordInfo.cs" t="Include" />
+            <e p="FriendLinkInfo.cs" t="Include" />
+            <e p="HelpInfo.cs" t="Include" />
+            <e p="LoginFailLogInfo.cs" t="Include" />
+            <e p="MallAdminLogInfo.cs" t="Include" />
+            <e p="NavInfo.cs" t="Include" />
+            <e p="NewsInfo.cs" t="Include" />
+            <e p="NewsTypeInfo.cs" t="Include" />
+            <e p="PVStatInfo.cs" t="Include" />
+            <e p="RegionInfo.cs" t="Include" />
+            <e p="ShipCompanyInfo.cs" t="Include" />
+            <e p="StoreAdminLogInfo.cs" t="Include" />
+          </e>
+          <e p="Order" t="Include">
+            <e p="CartItemInfo.cs" t="Include" />
+            <e p="OrderActionInfo.cs" t="Include" />
+            <e p="OrderActionType.cs" t="Include" />
+            <e p="OrderAfterServiceInfo.cs" t="Include" />
+            <e p="OrderAfterServiceState.cs" t="Include" />
+            <e p="OrderInfo.cs" t="Include" />
+            <e p="OrderProductInfo.cs" t="Include" />
+            <e p="OrderRefundInfo.cs" t="Include" />
+            <e p="OrderRefundState.cs" t="Include" />
+            <e p="OrderState.cs" t="Include" />
+          </e>
+          <e p="Product" t="Include">
+            <e p="AttributeGroupInfo.cs" t="Include" />
+            <e p="AttributeInfo.cs" t="Include" />
+            <e p="AttributeValueInfo.cs" t="Include" />
+            <e p="BrandInfo.cs" t="Include" />
+            <e p="CategoryInfo.cs" t="Include" />
+            <e p="ProductAttributeInfo.cs" t="Include" />
+            <e p="ProductConsultInfo.cs" t="Include" />
+            <e p="ProductConsultTypeInfo.cs" t="Include" />
+            <e p="ProductImageInfo.cs" t="Include" />
+            <e p="ProductInfo.cs" t="Include" />
+            <e p="ProductKeywordInfo.cs" t="Include" />
+            <e p="ProductReviewInfo.cs" t="Include" />
+            <e p="ProductSKUItemInfo.cs" t="Include" />
+            <e p="ProductState.cs" t="Include" />
+            <e p="ProductStockInfo.cs" t="Include" />
+            <e p="TimeProductInfo.cs" t="Include" />
+          </e>
+          <e p="Promotion" t="Include">
+            <e p="BuySendPromotionInfo.cs" t="Include" />
+            <e p="CouponInfo.cs" t="Include" />
+            <e p="CouponTypeInfo.cs" t="Include" />
+            <e p="ExtGiftInfo.cs" t="Include" />
+            <e p="ExtSuitProductInfo.cs" t="Include" />
+            <e p="FullCutPromotionInfo.cs" t="Include" />
+            <e p="FullSendPromotionInfo.cs" t="Include" />
+            <e p="GiftPromotionInfo.cs" t="Include" />
+            <e p="SinglePromotionInfo.cs" t="Include" />
+            <e p="SuitPromotionInfo.cs" t="Include" />
+            <e p="TopicInfo.cs" t="Include" />
+          </e>
+          <e p="Store" t="Include">
+            <e p="StoreClassInfo.cs" t="Include" />
+            <e p="StoreIndustryInfo.cs" t="Include" />
+            <e p="StoreInfo.cs" t="Include" />
+            <e p="StoreKeeperInfo.cs" t="Include" />
+            <e p="StoreRankInfo.cs" t="Include" />
+            <e p="StoreReviewInfo.cs" t="Include" />
+            <e p="StoreShipFeeInfo.cs" t="Include" />
+            <e p="StoreShipTemplateInfo.cs" t="Include" />
+            <e p="StoreState.cs" t="Include" />
+          </e>
+          <e p="User" t="Include">
+            <e p="MallAdminActionInfo.cs" t="Include" />
+            <e p="MallAdminGroupInfo.cs" t="Include" />
+            <e p="OAuthInfo.cs" t="Include" />
+            <e p="OnlineUserInfo.cs" t="Include" />
+            <e p="ShipAddressInfo.cs" t="Include" />
+            <e p="UserInfo.cs" t="Include" />
+            <e p="UserRankInfo.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Email" t="Include">
+          <e p="BMAEmail.cs" t="Include" />
+          <e p="IEmailStrategy.cs" t="Include" />
+        </e>
+        <e p="Event" t="Include">
+          <e p="BMAEvent.cs" t="Include" />
+          <e p="EventInfo.cs" t="Include" />
+          <e p="IEvent.cs" t="Include" />
+        </e>
+        <e p="Helper" t="Include">
+          <e p="CommonHelper.cs" t="Include" />
+          <e p="IOHelper.cs" t="Include" />
+          <e p="SecureHelper.cs" t="Include" />
+          <e p="StringHelper.cs" t="Include" />
+          <e p="TypeHelper.cs" t="Include" />
+          <e p="ValidateHelper.cs" t="Include" />
+          <e p="WebHelper.cs" t="Include" />
+        </e>
+        <e p="IPSeek" t="Include">
+          <e p="BMAIPSeek.cs" t="Include" />
+          <e p="IIPSeekStrategy.cs" t="Include" />
+        </e>
+        <e p="Log" t="Include">
+          <e p="BMALog.cs" t="Include" />
+          <e p="ILogStrategy.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Order" t="Include">
+          <e p="BMAOrder.cs" t="Include" />
+          <e p="IOrderStrategy.cs" t="Include" />
+        </e>
+        <e p="Plugin" t="Include">
+          <e p="BMAPlugin.cs" t="Include" />
+          <e p="Interface" t="Include">
+            <e p="IOAuthPlugin.cs" t="Include" />
+            <e p="IPayPlugin.cs" t="Include" />
+            <e p="IPlugin.cs" t="Include" />
+          </e>
+          <e p="PluginInfo.cs" t="Include" />
+          <e p="PluginType.cs" t="Include" />
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Random" t="Include">
+          <e p="BMARandom.cs" t="Include" />
+          <e p="IRandomStrategy.cs" t="Include" />
+          <e p="RandomImage.cs" t="Include" />
+        </e>
+        <e p="Search" t="Include">
+          <e p="BMASearch.cs" t="Include" />
+          <e p="ISearchStrategy.cs" t="Include" />
+        </e>
+        <e p="Session" t="Include">
+          <e p="BMASession.cs" t="Include" />
+          <e p="ISessionStrategy.cs" t="Include" />
+        </e>
+        <e p="SMS" t="Include">
+          <e p="BMASMS.cs" t="Include" />
+          <e p="ISMSStrategy.cs" t="Include" />
+        </e>
+        <e p="Upload" t="Include">
+          <e p="BMAUpload.cs" t="Include" />
+          <e p="IUploadStrategy.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Libraries\BrnMall.Data" t="IncludeRecursive">
+        <e p="Adverts.cs" t="Include" />
+        <e p="BannedIPs.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Brands.cs" t="Include" />
+        <e p="BrnMall.Data.csproj" t="IncludeRecursive" />
+        <e p="BrowseHistories.cs" t="Include" />
+        <e p="Categories.cs" t="Include" />
+        <e p="Coupons.cs" t="Include" />
+        <e p="Credits.cs" t="Include" />
+        <e p="DataBases.cs" t="Include" />
+        <e p="EventLogs.cs" t="Include" />
+        <e p="FavoriteProducts.cs" t="Include" />
+        <e p="FavoriteStores.cs" t="Include" />
+        <e p="FilterWords.cs" t="Include" />
+        <e p="FriendLinks.cs" t="Include" />
+        <e p="Helps.cs" t="Include" />
+        <e p="LoginFailLogs.cs" t="Include" />
+        <e p="MallAdminActions.cs" t="Include" />
+        <e p="MallAdminGroups.cs" t="Include" />
+        <e p="MallAdminLogs.cs" t="Include" />
+        <e p="Navs.cs" t="Include" />
+        <e p="News.cs" t="Include" />
+        <e p="OAuths.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="OnlineUsers.cs" t="Include" />
+        <e p="OrderActions.cs" t="Include" />
+        <e p="OrderAfterServices.cs" t="Include" />
+        <e p="OrderRefunds.cs" t="Include" />
+        <e p="Orders.cs" t="Include" />
+        <e p="ProductConsults.cs" t="Include" />
+        <e p="ProductReviews.cs" t="Include" />
+        <e p="Products.cs" t="Include" />
+        <e p="ProductStats.cs" t="Include" />
+        <e p="Promotions.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="PVStats.cs" t="Include" />
+        <e p="Regions.cs" t="Include" />
+        <e p="SearchHistories.cs" t="Include" />
+        <e p="ShipAddresses.cs" t="Include" />
+        <e p="ShipCompanies.cs" t="Include" />
+        <e p="StoreAdminLogs.cs" t="Include" />
+        <e p="StoreIndustries.cs" t="Include" />
+        <e p="StoreRanks.cs" t="Include" />
+        <e p="Stores.cs" t="Include" />
+        <e p="Topics.cs" t="Include" />
+        <e p="UserRanks.cs" t="Include" />
+        <e p="Users.cs" t="Include" />
+      </e>
+      <e p="Libraries\BrnMall.Services" t="IncludeRecursive">
+        <e p="Admin" t="Include">
+          <e p="AdminAdverts.cs" t="Include" />
+          <e p="AdminBannedIPs.cs" t="Include" />
+          <e p="AdminBrands.cs" t="Include" />
+          <e p="AdminCategories.cs" t="Include" />
+          <e p="AdminCoupons.cs" t="Include" />
+          <e p="AdminCredits.cs" t="Include" />
+          <e p="AdminFilterWords.cs" t="Include" />
+          <e p="AdminFriendLinks.cs" t="Include" />
+          <e p="AdminHelps.cs" t="Include" />
+          <e p="AdminNavs.cs" t="Include" />
+          <e p="AdminNews.cs" t="Include" />
+          <e p="AdminOrderAfterServices.cs" t="Include" />
+          <e p="AdminOrderRefunds.cs" t="Include" />
+          <e p="AdminOrders.cs" t="Include" />
+          <e p="AdminPlugins.cs" t="Include" />
+          <e p="AdminProductConsults.cs" t="Include" />
+          <e p="AdminProductReviews.cs" t="Include" />
+          <e p="AdminProducts.cs" t="Include" />
+          <e p="AdminPromotions.cs" t="Include" />
+          <e p="AdminSearchHistories.cs" t="Include" />
+          <e p="AdminShipCompanies.cs" t="Include" />
+          <e p="AdminStoreIndustries.cs" t="Include" />
+          <e p="AdminStoreRanks.cs" t="Include" />
+          <e p="AdminStores.cs" t="Include" />
+          <e p="AdminTopic.cs" t="Include" />
+          <e p="AdminUserRanks.cs" t="Include" />
+          <e p="AdminUsers.cs" t="Include" />
+          <e p="MallAdminActions.cs" t="Include" />
+          <e p="MallAdminGroups.cs" t="Include" />
+          <e p="MallAdminLogs.cs" t="Include" />
+          <e p="StoreAdminLogs.cs" t="Include" />
+        </e>
+        <e p="Adverts.cs" t="Include" />
+        <e p="Asyn.cs" t="Include" />
+        <e p="BannedIPs.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Brands.cs" t="Include" />
+        <e p="BrnMall.Services.csproj" t="IncludeRecursive" />
+        <e p="BrowseHistories.cs" t="Include" />
+        <e p="Carts.cs" t="Include" />
+        <e p="Categories.cs" t="Include" />
+        <e p="Coupons.cs" t="Include" />
+        <e p="Credits.cs" t="Include" />
+        <e p="DataBases.cs" t="Include" />
+        <e p="Emails.cs" t="Include" />
+        <e p="EventLogs.cs" t="Include" />
+        <e p="FavoriteProducts.cs" t="Include" />
+        <e p="FavoriteStores.cs" t="Include" />
+        <e p="FilterWords.cs" t="Include" />
+        <e p="FriendLinks.cs" t="Include" />
+        <e p="Helps.cs" t="Include" />
+        <e p="IPSeek.cs" t="Include" />
+        <e p="LoginFailLogs.cs" t="Include" />
+        <e p="Logs.cs" t="Include" />
+        <e p="MallUtils.cs" t="Include" />
+        <e p="Navs.cs" t="Include" />
+        <e p="News.cs" t="Include" />
+        <e p="OAuths.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="OnlineUsers.cs" t="Include" />
+        <e p="OrderActions.cs" t="Include" />
+        <e p="OrderAfterServices.cs" t="Include" />
+        <e p="OrderRefunds.cs" t="Include" />
+        <e p="Orders.cs" t="Include" />
+        <e p="Plugins.cs" t="Include" />
+        <e p="ProductConsults.cs" t="Include" />
+        <e p="ProductReviews.cs" t="Include" />
+        <e p="Products.cs" t="Include" />
+        <e p="ProductStats.cs" t="Include" />
+        <e p="Promotions.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="PVStats.cs" t="Include" />
+        <e p="Randoms.cs" t="Include" />
+        <e p="Regions.cs" t="Include" />
+        <e p="Searches.cs" t="Include" />
+        <e p="SearchHistories.cs" t="Include" />
+        <e p="Sessions.cs" t="Include" />
+        <e p="ShipAddresses.cs" t="Include" />
+        <e p="ShipCompanies.cs" t="Include" />
+        <e p="SMSes.cs" t="Include" />
+        <e p="StoreIndustries.cs" t="Include" />
+        <e p="StoreRanks.cs" t="Include" />
+        <e p="Stores.cs" t="Include" />
+        <e p="Topics.cs" t="Include" />
+        <e p="Uploads.cs" t="Include" />
+        <e p="UserRanks.cs" t="Include" />
+        <e p="Users.cs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Plugins\BrnMall.OAuthPlugin.QQ" t="IncludeRecursive">
+        <e p="BrnMall.OAuthPlugin.QQ.csproj" t="IncludeRecursive" />
+        <e p="codes" t="Include">
+          <e p="PluginService.cs" t="Include" />
+          <e p="PluginUtils.cs" t="Include" />
+        </e>
+        <e p="controllers" t="Include">
+          <e p="AdminQQAuthController.cs" t="Include" />
+          <e p="QQAuthController.cs" t="Include" />
+        </e>
+        <e p="db.config" t="Include" />
+        <e p="models" t="Include">
+          <e p="ConfigModel.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="plugin.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="views" t="Include">
+          <e p="adminqqoauth" t="Include">
+            <e p="config.cshtml" t="Include" />
+          </e>
+        </e>
+        <e p="Web.config" t="Include" />
+      </e>
+      <e p="Plugins\BrnMall.PayPlugin.Alipay" t="IncludeRecursive">
+        <e p="BrnMall.PayPlugin.Alipay.csproj" t="IncludeRecursive" />
+        <e p="codes" t="Include">
+          <e p="mob" t="Include">
+            <e p="AlipayConfig.cs" t="Include" />
+            <e p="AlipayCore.cs" t="Include" />
+            <e p="AlipayNotify.cs" t="Include" />
+            <e p="AlipaySubmit.cs" t="Include" />
+            <e p="RSA.cs" t="Include" />
+          </e>
+          <e p="pc" t="Include">
+            <e p="AlipayConfig.cs" t="Include" />
+            <e p="AlipayCore.cs" t="Include" />
+            <e p="AlipayMD5.cs" t="Include" />
+            <e p="AlipayNotify.cs" t="Include" />
+            <e p="AlipayRSA.cs" t="Include" />
+            <e p="AlipaySubmit.cs" t="Include" />
+          </e>
+          <e p="PluginService.cs" t="Include" />
+          <e p="PluginUtils.cs" t="Include" />
+        </e>
+        <e p="controllers" t="Include">
+          <e p="AdminAlipayController.cs" t="Include" />
+          <e p="AlipayController.cs" t="Include" />
+          <e p="AppAlipayController.cs" t="Include" />
+          <e p="MobAlipayController.cs" t="Include" />
+        </e>
+        <e p="db.config" t="Include" />
+        <e p="models" t="Include">
+          <e p="ConfigModel.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="plugin.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="views" t="Include">
+          <e p="adminalipay" t="Include">
+            <e p="config.cshtml" t="Include" />
+          </e>
+        </e>
+        <e p="Web.config" t="Include" />
+      </e>
+      <e p="Plugins\BrnMall.PayPlugin.WeChat" t="IncludeRecursive">
+        <e p="BrnMall.PayPlugin.WeChat.csproj" t="IncludeRecursive" />
+        <e p="codes" t="Include">
+          <e p="openwechat" t="Include">
+            <e p="HttpUtil.cs" t="Include" />
+            <e p="LogUtil.cs" t="Include" />
+            <e p="MD5Util.cs" t="Include" />
+            <e p="OpenModel.cs" t="Include" />
+            <e p="PayConfig.cs" t="Include" />
+            <e p="RequestHandler.cs" t="Include" />
+            <e p="ResponseHandler.cs" t="Include" />
+            <e p="TenpayUtil.cs" t="Include" />
+          </e>
+          <e p="PluginService.cs" t="Include" />
+          <e p="PluginUtils.cs" t="Include" />
+          <e p="wpwechat" t="Include">
+            <e p="HttpUtil.cs" t="Include" />
+            <e p="LogUtil.cs" t="Include" />
+            <e p="MD5Util.cs" t="Include" />
+            <e p="OpenModel.cs" t="Include" />
+            <e p="PayConfig.cs" t="Include" />
+            <e p="RequestHandler.cs" t="Include" />
+            <e p="ResponseHandler.cs" t="Include" />
+            <e p="TenpayUtil.cs" t="Include" />
+          </e>
+        </e>
+        <e p="controllers" t="Include">
+          <e p="AdminWeChatController.cs" t="Include" />
+          <e p="AppWebChatController.cs" t="Include" />
+          <e p="MobWebChatController.cs" t="Include" />
+        </e>
+        <e p="db.config" t="Include" />
+        <e p="models" t="Include">
+          <e p="ConfigModel.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="plugin.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="views" t="Include">
+          <e p="adminwechat" t="Include">
+            <e p="config.cshtml" t="Include" />
+          </e>
+          <e p="wechat" t="Include">
+            <e p="pay.cshtml" t="Include" />
+          </e>
+        </e>
+        <e p="Web.config" t="Include" />
+      </e>
+      <e p="Presentation\BrnMall.Web" t="IncludeRecursive">
+        <e p="admin_mall" t="IncludeRecursive">
+          <e p="AreaRegistration.cs" t="Include" />
+          <e p="BrnMall.Web.MallAdmin.csproj" t="IncludeRecursive" />
+          <e p="controllers" t="Include">
+            <e p="AdvertController.cs" t="Include" />
+            <e p="BannedIPController.cs" t="Include" />
+            <e p="BrandController.cs" t="Include" />
+            <e p="CategoryController.cs" t="Include" />
+            <e p="CouponController.cs" t="Include" />
+            <e p="DataBaseController.cs" t="Include" />
+            <e p="EventController.cs" t="Include" />
+            <e p="FilterWordController.cs" t="Include" />
+            <e p="FriendLinkController.cs" t="Include" />
+            <e p="HelpController.cs" t="Include" />
+            <e p="HomeController.cs" t="Include" />
+            <e p="LogController.cs" t="Include" />
+            <e p="MallAdminGroupController.cs" t="Include" />
+            <e p="NavController.cs" t="Include" />
+            <e p="NewsController.cs" t="Include" />
+            <e p="OrderController.cs" t="Include" />
+            <e p="PluginController.cs" t="Include" />
+            <e p="ProductConsultController.cs" t="Include" />
+            <e p="ProductController.cs" t="Include" />
+            <e p="ProductReviewController.cs" t="Include" />
+            <e p="PromotionController.cs" t="Include" />
+            <e p="SetController.cs" t="Include" />
+            <e p="ShipCompanyController.cs" t="Include" />
+            <e p="StatController.cs" t="Include" />
+            <e p="StoreController.cs" t="Include" />
+            <e p="StoreIndustryController.cs" t="Include" />
+            <e p="StoreRankController.cs" t="Include" />
+            <e p="ToolController.cs" t="Include" />
+            <e p="TopicController.cs" t="Include" />
+            <e p="UserController.cs" t="Include" />
+            <e p="UserRankController.cs" t="Include" />
+          </e>
+          <e p="css" t="Include">
+            <e p="site.css" t="Include" />
+          </e>
+          <e p="images" t="Include">
+            <e p="a.jpg" t="Include" />
+            <e p="add.jpg" t="Include" />
+            <e p="bg.jpg" t="Include" />
+            <e p="bottomBg.jpg" t="Include" />
+            <e p="bt_right.jpg" t="Include" />
+            <e p="cancel.jpg" t="Include" />
+            <e p="delete.jpg" t="Include" />
+            <e p="delete2.gif" t="Include" />
+            <e p="edit.jpg" t="Include" />
+            <e p="goback.jpg" t="Include" />
+            <e p="ico1.jpg" t="Include" />
+            <e p="li.jpg" t="Include" />
+            <e p="li1.jpg" t="Include" />
+            <e p="logo.jpg" t="Include" />
+            <e p="menubg.jpg" t="Include" />
+            <e p="menubg_bottom.jpg" t="Include" />
+            <e p="menubg_top.jpg" t="Include" />
+            <e p="menuli_bg.jpg" t="Include" />
+            <e p="menuli_bg_hot.jpg" t="Include" />
+            <e p="nav_bg_hot.jpg" t="Include" />
+            <e p="progressbar.gif" t="Include" />
+            <e p="refresh.jpg" t="Include" />
+            <e p="right_ico.jpg" t="Include" />
+            <e p="s.jpg" t="Include" />
+            <e p="search1.gif" t="Include" />
+            <e p="selectbg.gif" t="Include" />
+            <e p="selectbgico.gif" t="Include" />
+            <e p="submit.jpg" t="Include" />
+            <e p="tagbg-left.jpg" t="Include" />
+            <e p="tagbg.jpg" t="Include" />
+            <e p="tip.gif" t="Include" />
+            <e p="top_bg.jpg" t="Include" />
+            <e p="tree_close.gif" t="Include" />
+            <e p="tree_open.gif" t="Include" />
+          </e>
+          <e p="menu" t="Include">
+            <e p="2.js" t="Include" />
+          </e>
+          <e p="models" t="Include">
+            <e p="AdvertModel.cs" t="Include" />
+            <e p="BannedIPModel.cs" t="Include" />
+            <e p="BrandModel.cs" t="Include" />
+            <e p="CategoryModel.cs" t="Include" />
+            <e p="CouponModel.cs" t="Include" />
+            <e p="EventModel.cs" t="Include" />
+            <e p="FilterWordModel.cs" t="Include" />
+            <e p="FriendLinkModel.cs" t="Include" />
+            <e p="HelpModel.cs" t="Include" />
+            <e p="HomeModel.cs" t="Include" />
+            <e p="LogModel.cs" t="Include" />
+            <e p="MallAdminGroupModel.cs" t="Include" />
+            <e p="NavModel.cs" t="Include" />
+            <e p="NewsModel.cs" t="Include" />
+            <e p="OrderModel.cs" t="Include" />
+            <e p="PluginModel.cs" t="Include" />
+            <e p="ProductConsultModel.cs" t="Include" />
+            <e p="ProductModel.cs" t="Include" />
+            <e p="ProductReviewModel.cs" t="Include" />
+            <e p="PromotionModel.cs" t="Include" />
+            <e p="SetModel.cs" t="Include" />
+            <e p="ShipCompanyModel.cs" t="Include" />
+            <e p="StatModel.cs" t="Include" />
+            <e p="StoreIndustryModel.cs" t="Include" />
+            <e p="StoreModel.cs" t="Include" />
+            <e p="StoreRankModel.cs" t="Include" />
+            <e p="TopicModel.cs" t="Include" />
+            <e p="UserModel.cs" t="Include" />
+            <e p="UserRankModel.cs" t="Include" />
+          </e>
+          <e p="obj" t="ExcludeRecursive" />
+          <e p="Properties" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+          <e p="scripts" t="Include">
+            <e p="excanvas.js" t="Include" />
+            <e p="jquery.flot.js" t="Include" />
+            <e p="jquery.flot.pie.js" t="Include" />
+            <e p="jquery.js" t="Include" />
+            <e p="jquery.validate.js" t="Include" />
+            <e p="jquery.validate.unobtrusive.js" t="Include" />
+            <e p="product.js" t="Include" />
+            <e p="region.js" t="Include" />
+            <e p="selectlist.js" t="Include" />
+            <e p="showlist.js" t="Include" />
+          </e>
+          <e p="views" t="Include">
+            <e p="_ViewStart.cshtml" t="Include" />
+            <e p="advert" t="Include">
+              <e p="addadvert.cshtml" t="Include" />
+              <e p="addadvertposition.cshtml" t="Include" />
+              <e p="advertlist.cshtml" t="Include" />
+              <e p="advertpositionlist.cshtml" t="Include" />
+              <e p="editadvert.cshtml" t="Include" />
+              <e p="editadvertposition.cshtml" t="Include" />
+            </e>
+            <e p="bannedip" t="Include">
+              <e p="add.cshtml" t="Include" />
+              <e p="edit.cshtml" t="Include" />
+              <e p="list.cshtml" t="Include" />
+            </e>
+            <e p="brand" t="Include">
+              <e p="add.cshtml" t="Include" />
+              <e p="edit.cshtml" t="Include" />
+              <e p="list.cshtml" t="Include" />
+            </e>
+            <e p="category" t="Include">
+              <e p="addattribute.cshtml" t="Include" />
+              <e p="addattributegroup.cshtml" t="Include" />
+              <e p="addattributevalue.cshtml" t="Include" />
+              <e p="addcategory.cshtml" t="Include" />
+              <e p="attributegrouplist.cshtml" t="Include" />
+              <e p="attributelist.cshtml" t="Include" />
+              <e p="attributevaluelist.cshtml" t="Include" />
+              <e p="categorylist.cshtml" t="Include" />
+              <e p="editattribute.cshtml" t="Include" />
+              <e p="editattributegroup.cshtml" t="Include" />
+              <e p="editattributevalue.cshtml" t="Include" />
+              <e p="editcategory.cshtml" t="Include" />
+            </e>
+            <e p="coupon" t="Include">
+              <e p="addcoupontype.cshtml" t="Include" />
+              <e p="couponlist.cshtml" t="Include" />
+              <e p="couponproductlist.cshtml" t="Include" />
+              <e p="coupontypelist.cshtml" t="Include" />
+              <e p="sendcoupon.cshtml" t="Include" />
+              <e p="showcoupontype.cshtml" t="Include" />
+            </e>
+            <e p="database" t="Include">
+              <e p="manage.cshtml" t="Include" />
+            </e>
+            <e p="Event" t="Include">
+              <e p="add.cshtml" t="Include" />
+              <e p="edit.cshtml" t="Include" />
+              <e p="list.cshtml" t="Include" />
+            </e>
+            <e p="filterword" t="Include">
+              <e p="add.cshtml" t="Include" />
+              <e p="edit.cshtml" t="Include" />
+              <e p="list.cshtml" t="Include" />
+            </e>
+            <e p="friendlink" t="Include">
+              <e p="add.cshtml" t="Include" />
+              <e p="edit.cshtml" t="Include" />
+              <e p="list.cshtml" t="Include" />
+            </e>
+            <e p="help" t="Include">
+              <e p="addhelp.cshtml" t="Include" />
+              <e p="addhelpcategory.cshtml" t="Include" />
+              <e p="edithelp.cshtml" t="Include" />
+              <e p="edithelpcategory.cshtml" t="Include" />
+              <e p="list.cshtml" t="Include" />
+            </e>
+            <e p="home" t="Include">
+              <e p="index.cshtml" t="Include" />
+              <e p="mallruninfo.cshtml" t="Include" />
+              <e p="menu.cshtml" t="Include" />
+              <e p="navbar.cshtml" t="Include" />
+            </e>
+            <e p="Log" t="Include">
+              <e p="creditloglist.cshtml" t="Include" />
+              <e p="malladminloglist.cshtml" t="Include" />
+              <e p="storeadminloglist.cshtml" t="Include" />
+            </e>
+            <e p="malladmingroup" t="Include">
+              <e p="add.cshtml" t="Include" />
+              <e p="edit.cshtml" t="Include" />
+              <e p="list.cshtml" t="Include" />
+            </e>
+            <e p="nav" t="Include">
+              <e p="add.cshtml" t="Include" />
+              <e p="edit.cshtml" t="Include" />
+              <e p="list.cshtml" t="Include" />
+            </e>
+            <e p="news" t="Include">
+              <e p="addnews.cshtml" t="Include" />
+              <e p="addnewstype.cshtml" t="Include" />
+              <e p="editnews.cshtml" t="Include" />
+              <e p="editnewstype.cshtml" t="Include" />
+              <e p="newslist.cshtml" t="Include" />
+              <e p="newstypelist.cshtml" t="Include" />
+            </e>
+            <e p="Order" t="Include">
+              <e p="afterservicelist.cshtml" t="Include" />
+              <e p="backorderafterservice.cshtml" t="Include" />
+              <e p="checkorderafterservice.cshtml" t="Include" />
+              <e p="orderafterserviceinfo.cshtml" t="Include" />
+              <e p="orderinfo.cshtml" t="Include" />
+              <e p="orderlist.cshtml" t="Include" />
+              <e p="printorder.cshtml" t="Include" />
+              <e p="refundlist.cshtml" t="Include" />
+              <e p="sendorderproduct.cshtml" t="Include" />
+              <e p="updateorderdiscount.cshtml" t="Include" />
+              <e p="updateordershipfee.cshtml" t="Include" />
+            </e>
+            <e p="Plugin" t="Include">
+              <e p="config.cshtml" t="Include" />
+              <e p="edit.cshtml" t="Include" />
+              <e p="list.cshtml" t="Include" />
+            </e>
+            <e p="Product" t="Include">
+              <e p="addproduct.cshtml" t="Include" />
+              <e p="addsku.cshtml" t="Include" />
+              <e p="addtimeproduct.cshtml" t="Include" />
+              <e p="editproduct.cshtml" t="Include" />
+              <e p="edittimeproduct.cshtml" t="Include" />
+              <e p="onsaleproductlist.cshtml" t="Include" />
+              <e p="outsaleproductlist.cshtml" t="Include" />
+              <e p="productimagelist.cshtml" t="Include" />
+              <e p="productkeywordlist.cshtml" t="Include" />
+              <e p="recyclebinproductlist.cshtml" t="Include" />
+              <e p="relateproductlist.cshtml" t="Include" />
+              <e p="timeproductlist.cshtml" t="Include" />
+            </e>
+            <e p="productconsult" t="Include">
+              <e p="addproductconsulttype.cshtml" t="Include" />
+              <e p="editproductconsulttype.cshtml" t="Include" />
+              <e p="productconsultlist.cshtml" t="Include" />
+              <e p="productconsulttypelist.cshtml" t="Include" />
+              <e p="reply.cshtml" t="Include" />
+            </e>
+            <e p="productreview" t="Include">
+              <e p="productreviewlist.cshtml" t="Include" />
+              <e p="productreviewreplylist.cshtml" t="Include" />
+            </e>
+            <e p="Promotion" t="Include">
+              <e p="addbuysendpromotion.cshtml" t="Include" />
+              <e p="addfullcutpromotion.cshtml" t="Include" />
+              <e p="addfullsendpromotion.cshtml" t="Include" />
+              <e p="addgiftpromotion.cshtml" t="Include" />
+              <e p="addsinglepromotion.cshtml" t="Include" />
+              <e p="addsuitpromotion.cshtml" t="Include" />
+              <e p="buysendproductlist.cshtml" t="Include" />
+              <e p="buysendpromotionlist.cshtml" t="Include" />
+              <e p="editbuysendpromotion.cshtml" t="Include" />
+              <e p="editfullcutpromotion.cshtml" t="Include" />
+              <e p="editfullsendpromotion.cshtml" t="Include" />
+              <e p="editgiftpromotion.cshtml" t="Include" />
+              <e p="editsinglepromotion.cshtml" t="Include" />
+              <e p="editsuitpromotion.cshtml" t="Include" />
+              <e p="fullcutproductlist.cshtml" t="Include" />
+              <e p="fullcutpromotionlist.cshtml" t="Include" />
+              <e p="fullsendproductlist.cshtml" t="Include" />
+              <e p="fullsendpromotionlist.cshtml" t="Include" />
+              <e p="giftlist.cshtml" t="Include" />
+              <e p="giftpromotionlist.cshtml" t="Include" />
+              <e p="singlepromotionlist.cshtml" t="Include" />
+              <e p="suitproductlist.cshtml" t="Include" />
+              <e p="suitpromotionlist.cshtml" t="Include" />
+            </e>
+            <e p="set" t="Include">
+              <e p="access.cshtml" t="Include" />
+              <e p="account.cshtml" t="Include" />
+              <e p="credit.cshtml" t="Include" />
+              <e p="email.cshtml" t="Include" />
+              <e p="mall.cshtml" t="Include" />
+              <e p="performance.cshtml" t="Include" />
+              <e p="printorder.cshtml" t="Include" />
+              <e p="site.cshtml" t="Include" />
+              <e p="sms.cshtml" t="Include" />
+              <e p="upload.cshtml" t="Include" />
+            </e>
+            <e p="shared" t="Include">
+              <e p="_layout.cshtml" t="Include" />
+              <e p="error.cshtml" t="Include" />
+              <e p="prompt.cshtml" t="Include" />
+            </e>
+            <e p="shipcompany" t="Include">
+              <e p="add.cshtml" t="Include" />
+              <e p="edit.cshtml" t="Include" />
+              <e p="list.cshtml" t="Include" />
+            </e>
+            <e p="stat" t="Include">
+              <e p="clientstat.cshtml" t="Include" />
+              <e p="onlineuserlist.cshtml" t="Include" />
+              <e p="onlineusertrend.cshtml" t="Include" />
+              <e p="orderstat.cshtml" t="Include" />
+              <e p="productstat.cshtml" t="Include" />
+              <e p="regionstat.cshtml" t="Include" />
+              <e p="saleproductlist.cshtml" t="Include" />
+              <e p="searchwordstatlist.cshtml" t="Include" />
+            </e>
+            <e p="Store" t="Include">
+              <e p="addstore.cshtml" t="Include" />
+              <e p="addstoreclass.cshtml" t="Include" />
+              <e p="addstoreshipfee.cshtml" t="Include" />
+              <e p="addstoreshiptemplate.cshtml" t="Include" />
+              <e p="editstore.cshtml" t="Include" />
+              <e p="editstoreclass.cshtml" t="Include" />
+              <e p="editstorekeeper.cshtml" t="Include" />
+              <e p="editstoreshipfee.cshtml" t="Include" />
+              <e p="editstoreshiptemplate.cshtml" t="Include" />
+              <e p="setstoreadminer.cshtml" t="Include" />
+              <e p="storeclasslist.cshtml" t="Include" />
+              <e p="storelist.cshtml" t="Include" />
+              <e p="storeshipfeelist.cshtml" t="Include" />
+              <e p="storeshiptemplatelist.cshtml" t="Include" />
+            </e>
+            <e p="storeindustry" t="Include">
+              <e p="add.cshtml" t="Include" />
+              <e p="edit.cshtml" t="Include" />
+              <e p="list.cshtml" t="Include" />
+            </e>
+            <e p="storerank" t="Include">
+              <e p="add.cshtml" t="Include" />
+              <e p="edit.cshtml" t="Include" />
+              <e p="list.cshtml" t="Include" />
+            </e>
+            <e p="topic" t="Include">
+              <e p="add.cshtml" t="Include" />
+              <e p="edit.cshtml" t="Include" />
+              <e p="list.cshtml" t="Include" />
+            </e>
+            <e p="User" t="Include">
+              <e p="add.cshtml" t="Include" />
+              <e p="edit.cshtml" t="Include" />
+              <e p="list.cshtml" t="Include" />
+            </e>
+            <e p="userrank" t="Include">
+              <e p="add.cshtml" t="Include" />
+              <e p="edit.cshtml" t="Include" />
+              <e p="list.cshtml" t="Include" />
+            </e>
+            <e p="Web.config" t="Include" />
+          </e>
+          <e p="Web.config" t="Include" />
+        </e>
+        <e p="admin_store" t="IncludeRecursive">
+          <e p="AreaRegistration.cs" t="Include" />
+          <e p="BrnMall.Web.StoreAdmin.csproj" t="IncludeRecursive" />
+          <e p="controllers" t="Include">
+            <e p="BrandController.cs" t="Include" />
+            <e p="CategoryController.cs" t="Include" />
+            <e p="CouponController.cs" t="Include" />
+            <e p="HomeController.cs" t="Include" />
+            <e p="OrderController.cs" t="Include" />
+            <e p="ProductConsultController.cs" t="Include" />
+            <e p="ProductController.cs" t="Include" />
+            <e p="ProductReviewController.cs" t="Include" />
+            <e p="PromotionController.cs" t="Include" />
+            <e p="StatController.cs" t="Include" />
+            <e p="StoreController.cs" t="Include" />
+            <e p="ToolController.cs" t="Include" />
+          </e>
+          <e p="css" t="Include">
+            <e p="site.css" t="Include" />
+          </e>
+          <e p="images" t="Include">
+            <e p="a.jpg" t="Include" />
+            <e p="add.jpg" t="Include" />
+            <e p="bg.jpg" t="Include" />
+            <e p="bottomBg.jpg" t="Include" />
+            <e p="bt_right.jpg" t="Include" />
+            <e p="cancel.jpg" t="Include" />
+            <e p="delete.jpg" t="Include" />
+            <e p="delete2.gif" t="Include" />
+            <e p="edit.jpg" t="Include" />
+            <e p="goback.jpg" t="Include" />
+            <e p="ico1.jpg" t="Include" />
+            <e p="li.jpg" t="Include" />
+            <e p="li1.jpg" t="Include" />
+            <e p="logo.jpg" t="Include" />
+            <e p="menubg.jpg" t="Include" />
+            <e p="menubg_bottom.jpg" t="Include" />
+            <e p="menubg_top.jpg" t="Include" />
+            <e p="menuli_bg.jpg" t="Include" />
+            <e p="menuli_bg_hot.jpg" t="Include" />
+            <e p="nav_bg_hot.jpg" t="Include" />
+            <e p="progressbar.gif" t="Include" />
+            <e p="refresh.jpg" t="Include" />
+            <e p="right_ico.jpg" t="Include" />
+            <e p="s.jpg" t="Include" />
+            <e p="search1.gif" t="Include" />
+            <e p="selectbg.gif" t="Include" />
+            <e p="selectbgico.gif" t="Include" />
+            <e p="submit.jpg" t="Include" />
+            <e p="tagbg-left.jpg" t="Include" />
+            <e p="tagbg.jpg" t="Include" />
+            <e p="tip.gif" t="Include" />
+            <e p="top_bg.jpg" t="Include" />
+            <e p="tree_close.gif" t="Include" />
+            <e p="tree_open.gif" t="Include" />
+          </e>
+          <e p="models" t="Include">
+            <e p="CouponModel.cs" t="Include" />
+            <e p="HomeModel.cs" t="Include" />
+            <e p="OrderModel.cs" t="Include" />
+            <e p="ProductConsultModel.cs" t="Include" />
+            <e p="ProductModel.cs" t="Include" />
+            <e p="ProductReviewModel.cs" t="Include" />
+            <e p="PromotionModel.cs" t="Include" />
+            <e p="StatModel.cs" t="Include" />
+            <e p="StoreModel.cs" t="Include" />
+          </e>
+          <e p="obj" t="ExcludeRecursive" />
+          <e p="Properties" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+          <e p="scripts" t="Include">
+            <e p="excanvas.js" t="Include" />
+            <e p="jquery.flot.js" t="Include" />
+            <e p="jquery.flot.pie.js" t="Include" />
+            <e p="jquery.js" t="Include" />
+            <e p="jquery.validate.js" t="Include" />
+            <e p="jquery.validate.unobtrusive.js" t="Include" />
+            <e p="product.js" t="Include" />
+            <e p="region.js" t="Include" />
+            <e p="selectlist.js" t="Include" />
+            <e p="showlist.js" t="Include" />
+          </e>
+          <e p="views" t="Include">
+            <e p="_ViewStart.cshtml" t="Include" />
+            <e p="coupon" t="Include">
+              <e p="addcoupontype.cshtml" t="Include" />
+              <e p="couponlist.cshtml" t="Include" />
+              <e p="couponproductlist.cshtml" t="Include" />
+              <e p="coupontypelist.cshtml" t="Include" />
+              <e p="sendcoupon.cshtml" t="Include" />
+              <e p="showcoupontype.cshtml" t="Include" />
+            </e>
+            <e p="home" t="Include">
+              <e p="index.cshtml" t="Include" />
+              <e p="menu.cshtml" t="Include" />
+              <e p="navbar.cshtml" t="Include" />
+              <e p="storeruninfo.cshtml" t="Include" />
+            </e>
+            <e p="Order" t="Include">
+              <e p="afterservicelist.cshtml" t="Include" />
+              <e p="backorderafterservice.cshtml" t="Include" />
+              <e p="checkorderafterservice.cshtml" t="Include" />
+              <e p="orderafterserviceinfo.cshtml" t="Include" />
+              <e p="orderinfo.cshtml" t="Include" />
+              <e p="orderlist.cshtml" t="Include" />
+              <e p="printorder.cshtml" t="Include" />
+              <e p="refundlist.cshtml" t="Include" />
+              <e p="sendorderproduct.cshtml" t="Include" />
+              <e p="updateorderdiscount.cshtml" t="Include" />
+              <e p="updateordershipfee.cshtml" t="Include" />
+            </e>
+            <e p="Product" t="Include">
+              <e p="addproduct.cshtml" t="Include" />
+              <e p="addsku.cshtml" t="Include" />
+              <e p="addtimeproduct.cshtml" t="Include" />
+              <e p="editproduct.cshtml" t="Include" />
+              <e p="edittimeproduct.cshtml" t="Include" />
+              <e p="onsaleproductlist.cshtml" t="Include" />
+              <e p="outsaleproductlist.cshtml" t="Include" />
+              <e p="productimagelist.cshtml" t="Include" />
+              <e p="recyclebinproductlist.cshtml" t="Include" />
+              <e p="relateproductlist.cshtml" t="Include" />
+              <e p="timeproductlist.cshtml" t="Include" />
+            </e>
+            <e p="productconsult" t="Include">
+              <e p="productconsultlist.cshtml" t="Include" />
+              <e p="reply.cshtml" t="Include" />
+            </e>
+            <e p="productreview" t="Include">
+              <e p="productreviewlist.cshtml" t="Include" />
+              <e p="productreviewreplylist.cshtml" t="Include" />
+            </e>
+            <e p="Promotion" t="Include">
+              <e p="addbuysendpromotion.cshtml" t="Include" />
+              <e p="addfullcutpromotion.cshtml" t="Include" />
+              <e p="addfullsendpromotion.cshtml" t="Include" />
+              <e p="addgiftpromotion.cshtml" t="Include" />
+              <e p="addsinglepromotion.cshtml" t="Include" />
+              <e p="addsuitpromotion.cshtml" t="Include" />
+              <e p="buysendproductlist.cshtml" t="Include" />
+              <e p="buysendpromotionlist.cshtml" t="Include" />
+              <e p="editbuysendpromotion.cshtml" t="Include" />
+              <e p="editfullcutpromotion.cshtml" t="Include" />
+              <e p="editfullsendpromotion.cshtml" t="Include" />
+              <e p="editgiftpromotion.cshtml" t="Include" />
+              <e p="editsinglepromotion.cshtml" t="Include" />
+              <e p="editsuitpromotion.cshtml" t="Include" />
+              <e p="fullcutproductlist.cshtml" t="Include" />
+              <e p="fullcutpromotionlist.cshtml" t="Include" />
+              <e p="fullsendproductlist.cshtml" t="Include" />
+              <e p="fullsendpromotionlist.cshtml" t="Include" />
+              <e p="giftlist.cshtml" t="Include" />
+              <e p="giftpromotionlist.cshtml" t="Include" />
+              <e p="singlepromotionlist.cshtml" t="Include" />
+              <e p="suitproductlist.cshtml" t="Include" />
+              <e p="suitpromotionlist.cshtml" t="Include" />
+            </e>
+            <e p="shared" t="Include">
+              <e p="_layout.cshtml" t="Include" />
+              <e p="error.cshtml" t="Include" />
+              <e p="prompt.cshtml" t="Include" />
+            </e>
+            <e p="stat" t="Include">
+              <e p="orderstat.cshtml" t="Include" />
+              <e p="productstat.cshtml" t="Include" />
+              <e p="saleproductlist.cshtml" t="Include" />
+            </e>
+            <e p="Store" t="Include">
+              <e p="addstoreclass.cshtml" t="Include" />
+              <e p="addstoreshipfee.cshtml" t="Include" />
+              <e p="addstoreshiptemplate.cshtml" t="Include" />
+              <e p="editstore.cshtml" t="Include" />
+              <e p="editstoreclass.cshtml" t="Include" />
+              <e p="editstoreshipfee.cshtml" t="Include" />
+              <e p="editstoreshiptemplate.cshtml" t="Include" />
+              <e p="storeclasslist.cshtml" t="Include" />
+              <e p="storeshipfeelist.cshtml" t="Include" />
+              <e p="storeshiptemplatelist.cshtml" t="Include" />
+            </e>
+            <e p="Web.config" t="Include" />
+          </e>
+          <e p="Web.config" t="Include" />
+        </e>
+        <e p="App_Data" t="Include">
+          <e p="credit.config" t="Include" />
+          <e p="email.config" t="Include" />
+          <e p="event.config" t="Include" />
+          <e p="installedplugin.config" t="Include" />
+          <e p="ipdata.config" t="Include" />
+          <e p="mall.config" t="Include" />
+          <e p="memcachedcache.config" t="Include" />
+          <e p="memcachedcart.config" t="Include" />
+          <e p="memcachedsession.config" t="Include" />
+          <e p="pangu" t="Include">
+            <e p="dictionaries" t="Include">
+              <e p="ChsDoubleName1.txt" t="Include" />
+              <e p="ChsDoubleName2.txt" t="Include" />
+              <e p="ChsSingleName.txt" t="Include" />
+              <e p="Dict.dct" t="Include" />
+              <e p="Stopword.txt" t="Include" />
+              <e p="Synonym.txt" t="Include" />
+              <e p="Wildcard.txt" t="Include" />
+            </e>
+            <e p="pangu.config" t="Include" />
+          </e>
+          <e p="rabbitmqorder.config" t="Include" />
+          <e p="rdbs.config" t="Include" />
+          <e p="redisnosql.config" t="Include" />
+          <e p="sms.config" t="Include" />
+          <e p="txtlogs" t="Include" />
+          <e p="upload.config" t="Include" />
+        </e>
+        <e p="App_Start" t="Include">
+          <e p="RouteConfig.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BrnMall.Web.csproj" t="IncludeRecursive" />
+        <e p="Cache" t="Include">
+          <e p="category" t="Include">
+            <e p="selectlist.htm" t="Include" />
+          </e>
+        </e>
+        <e p="components" t="Include">
+          <e p="jbox" t="Include">
+            <e p="jquery.jBox-2.3.min.js" t="Include" />
+            <e p="Skins" t="Include">
+              <e p="default" t="Include">
+                <e p="Desktop.ini" t="Include" />
+                <e p="images" t="Include">
+                  <e p="jbox-button1.png" t="Include" />
+                  <e p="jbox-button2.png" t="Include" />
+                  <e p="jbox-close1.gif" t="Include" />
+                  <e p="jbox-close2.gif" t="Include" />
+                  <e p="jbox-content-loading.gif" t="Include" />
+                  <e p="jbox-icons-ie6.gif" t="Include" />
+                  <e p="jbox-icons.png" t="Include" />
+                  <e p="jbox-loading1.gif" t="Include" />
+                  <e p="jbox-loading2.gif" t="Include" />
+                  <e p="jbox-loading3.gif" t="Include" />
+                  <e p="jbox-title-icon.gif" t="Include" />
+                </e>
+                <e p="jbox.css" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="my97datepicker" t="Include">
+            <e p="calendar.js" t="Include" />
+            <e p="config.js" t="Include" />
+            <e p="lang" t="Include">
+              <e p="zh-cn.js" t="Include" />
+            </e>
+            <e p="My97DatePicker.htm" t="Include" />
+            <e p="skin" t="Include">
+              <e p="datePicker.gif" t="Include" />
+              <e p="default" t="Include">
+                <e p="datepicker.css" t="Include" />
+                <e p="img.gif" t="Include" />
+              </e>
+              <e p="WdatePicker.css" t="Include" />
+            </e>
+            <e p="WdatePicker.js" t="Include" />
+          </e>
+          <e p="umeditor" t="Include">
+            <e p="dialogs" t="Include">
+              <e p="emotion" t="Include">
+                <e p="emotion.css" t="Include" />
+                <e p="emotion.js" t="Include" />
+                <e p="images" t="Include">
+                  <e p="0.gif" t="Include" />
+                  <e p="bface.gif" t="Include" />
+                  <e p="cface.gif" t="Include" />
+                  <e p="fface.gif" t="Include" />
+                  <e p="jxface2.gif" t="Include" />
+                  <e p="neweditor-tab-bg.png" t="Include" />
+                  <e p="tface.gif" t="Include" />
+                  <e p="wface.gif" t="Include" />
+                  <e p="yface.gif" t="Include" />
+                </e>
+              </e>
+              <e p="formula" t="Include">
+                <e p="formula.css" t="Include" />
+                <e p="formula.html" t="Include" />
+                <e p="formula.js" t="Include" />
+                <e p="images" t="Include">
+                  <e p="formula.png" t="Include" />
+                </e>
+              </e>
+              <e p="image" t="Include">
+                <e p="image.css" t="Include" />
+                <e p="image.js" t="Include" />
+                <e p="images" t="Include">
+                  <e p="close.png" t="Include" />
+                  <e p="upload1.png" t="Include" />
+                  <e p="upload2.png" t="Include" />
+                </e>
+              </e>
+              <e p="link" t="Include">
+                <e p="link.js" t="Include" />
+              </e>
+              <e p="map" t="Include">
+                <e p="map.html" t="Include" />
+                <e p="map.js" t="Include" />
+              </e>
+              <e p="video" t="Include">
+                <e p="images" t="Include">
+                  <e p="center_focus.jpg" t="Include" />
+                  <e p="left_focus.jpg" t="Include" />
+                  <e p="none_focus.jpg" t="Include" />
+                  <e p="right_focus.jpg" t="Include" />
+                </e>
+                <e p="video.css" t="Include" />
+                <e p="video.js" t="Include" />
+              </e>
+            </e>
+            <e p="lang" t="Include">
+              <e p="zh-cn" t="Include">
+                <e p="images" t="Include">
+                  <e p="copy.png" t="Include" />
+                  <e p="imglabel.png" t="Include" />
+                  <e p="localimage.png" t="Include" />
+                  <e p="music.png" t="Include" />
+                  <e p="upload.png" t="Include" />
+                </e>
+                <e p="zh-cn.js" t="Include" />
+              </e>
+            </e>
+            <e p="themes" t="Include">
+              <e p="default" t="Include">
+                <e p="css" t="Include">
+                  <e p="umeditor.css" t="Include" />
+                  <e p="umeditor.min.css" t="Include" />
+                </e>
+                <e p="images" t="Include">
+                  <e p="caret.png" t="Include" />
+                  <e p="close.png" t="Include" />
+                  <e p="icons.gif" t="Include" />
+                  <e p="icons.png" t="Include" />
+                  <e p="ok.gif" t="Include" />
+                  <e p="pop-bg.png" t="Include" />
+                  <e p="spacer.gif" t="Include" />
+                  <e p="videologo.gif" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="third-party" t="Include">
+              <e p="mathquill" t="Include">
+                <e p="font" t="Include">
+                  <e p="stixgeneral-bundle" t="Include">
+                    <e p="STIXFontLicense2010.txt" t="Include" />
+                    <e p="stixgeneral-webfont.eot" t="Include" />
+                    <e p="stixgeneral-webfont.svg" t="Include" />
+                    <e p="stixgeneral-webfont.ttf" t="Include" />
+                    <e p="stixgeneral-webfont.woff" t="Include" />
+                    <e p="stixgeneralbol-webfont.eot" t="Include" />
+                    <e p="stixgeneralbol-webfont.svg" t="Include" />
+                    <e p="stixgeneralbol-webfont.ttf" t="Include" />
+                    <e p="stixgeneralbol-webfont.woff" t="Include" />
+                    <e p="stixgeneralbolita-webfont.eot" t="Include" />
+                    <e p="stixgeneralbolita-webfont.svg" t="Include" />
+                    <e p="stixgeneralbolita-webfont.ttf" t="Include" />
+                    <e p="stixgeneralbolita-webfont.woff" t="Include" />
+                    <e p="stixgeneralitalic-webfont.eot" t="Include" />
+                    <e p="stixgeneralitalic-webfont.svg" t="Include" />
+                    <e p="stixgeneralitalic-webfont.ttf" t="Include" />
+                    <e p="stixgeneralitalic-webfont.woff" t="Include" />
+                  </e>
+                  <e p="Symbola.eot" t="Include" />
+                  <e p="Symbola.otf" t="Include" />
+                  <e p="Symbola.svg" t="Include" />
+                  <e p="Symbola.ttf" t="Include" />
+                  <e p="Symbola.woff" t="Include" />
+                </e>
+                <e p="mathquill.css" t="Include" />
+                <e p="mathquill.js" t="Include" />
+                <e p="mathquill.min.js" t="Include" />
+              </e>
+            </e>
+            <e p="umeditor.config.js" t="Include" />
+            <e p="umeditor.js" t="Include" />
+          </e>
+          <e p="webuploader" t="Include">
+            <e p="Uploader.swf" t="Include" />
+            <e p="webuploader.css" t="Include" />
+            <e p="webuploader.flashonly.js" t="Include" />
+            <e p="webuploader.html5only.js" t="Include" />
+            <e p="webuploader.js" t="Include" />
+          </e>
+        </e>
+        <e p="controllers" t="Include">
+          <e p="AccountController.cs" t="Include" />
+          <e p="CartController.cs" t="Include" />
+          <e p="CatalogController.cs" t="Include" />
+          <e p="CouponController.cs" t="Include" />
+          <e p="HelpController.cs" t="Include" />
+          <e p="HomeController.cs" t="Include" />
+          <e p="NewsController.cs" t="Include" />
+          <e p="OrderController.cs" t="Include" />
+          <e p="StoreController.cs" t="Include" />
+          <e p="ToolController.cs" t="Include" />
+          <e p="UCenterController.cs" t="Include" />
+        </e>
+        <e p="css" t="Include">
+          <e p="account.css" t="Include" />
+          <e p="base.css" t="Include" />
+          <e p="buy.css" t="Include" />
+          <e p="content.css" t="Include" />
+          <e p="help.css" t="Include" />
+          <e p="home.css" t="Include" />
+          <e p="list.css" t="Include" />
+          <e p="ucenter.css" t="Include" />
+        </e>
+        <e p="favicon.ico" t="Include" />
+        <e p="Global.asax" t="Include" />
+        <e p="Global.asax.cs" t="Include" />
+        <e p="images" t="Include">
+          <e p="20130603A.png" t="Include" />
+          <e p="bgW.jpg" t="Include" />
+          <e p="bottomBg.jpg" t="Include" />
+          <e p="bottomLogo.jpg" t="Include" />
+          <e p="buy.png" t="Include" />
+          <e p="buy1.png" t="Include" />
+          <e p="categorys.jpg" t="Include" />
+          <e p="d.png" t="Include" />
+          <e p="deng.png" t="Include" />
+          <e p="du.gif" t="Include" />
+          <e p="floorB.gif" t="Include" />
+          <e p="gonggao.jpg" t="Include" />
+          <e p="guanzhu.png" t="Include" />
+          <e p="help_leftsz.gif" t="Include" />
+          <e p="helpcenter_icon1.gif" t="Include" />
+          <e p="helpcenter_icon2.gif" t="Include" />
+          <e p="i.gif" t="Include" />
+          <e p="itab3.gif" t="Include" />
+          <e p="jia.png" t="Include" />
+          <e p="jz.gif" t="Include" />
+          <e p="ljjs.jpg" t="Include" />
+          <e p="loading.gif" t="Include" />
+          <e p="lock.jpg" t="Include" />
+          <e p="loginAd.png" t="Include" />
+          <e p="logo.jpg" t="Include" />
+          <e p="logo.png" t="Include" />
+          <e p="lr.jpg" t="Include" />
+          <e p="lrS.jpg" t="Include" />
+          <e p="m.jpg" t="Include" />
+          <e p="newpp.png" t="Include" />
+          <e p="noBuy.png" t="Include" />
+          <e p="ok.gif" t="Include" />
+          <e p="p.jpg" t="Include" />
+          <e p="shopping.png" t="Include" />
+          <e p="shoppingNone.gif" t="Include" />
+          <e p="succ-error.png" t="Include" />
+          <e p="succ-ico.png" t="Include" />
+          <e p="succ-ok.png" t="Include" />
+          <e p="tb.png" t="Include" />
+          <e p="tip.png" t="Include" />
+          <e p="tj.jpg" t="Include" />
+          <e p="u.png" t="Include" />
+          <e p="user-avatar.gif" t="Include" />
+          <e p="userIMG-bg.png" t="Include" />
+          <e p="userSJ.png" t="Include" />
+          <e p="zoomloader.gif" t="Include" />
+        </e>
+        <e p="mobile" t="IncludeRecursive">
+          <e p="AreaRegistration.cs" t="Include" />
+          <e p="BrnMall.Web.Mobile.csproj" t="IncludeRecursive" />
+          <e p="controllers" t="Include">
+            <e p="AccountController.cs" t="Include" />
+            <e p="CartController.cs" t="Include" />
+            <e p="CatalogController.cs" t="Include" />
+            <e p="CategoryController.cs" t="Include" />
+            <e p="CouponController.cs" t="Include" />
+            <e p="HomeController.cs" t="Include" />
+            <e p="OrderController.cs" t="Include" />
+            <e p="StoreController.cs" t="Include" />
+            <e p="ToolController.cs" t="Include" />
+            <e p="UCenterController.cs" t="Include" />
+          </e>
+          <e p="css" t="Include">
+            <e p="account.css" t="Include" />
+            <e p="base.css" t="Include" />
+            <e p="buy.css" t="Include" />
+            <e p="content.css" t="Include" />
+            <e p="home.css" t="Include" />
+            <e p="list.css" t="Include" />
+            <e p="store.css" t="Include" />
+            <e p="ucenter.css" t="Include" />
+          </e>
+          <e p="images" t="Include">
+            <e p="arrow.png" t="Include" />
+            <e p="bg_line.png" t="Include" />
+            <e p="card-border.png" t="Include" />
+            <e p="cartNull.png" t="Include" />
+            <e p="change.png" t="Include" />
+            <e p="check.png" t="Include" />
+            <e p="checked.png" t="Include" />
+            <e p="del.png" t="Include" />
+            <e p="del2.png" t="Include" />
+            <e p="home-icons.png" t="Include" />
+            <e p="icon.png" t="Include" />
+            <e p="icon10.png" t="Include" />
+            <e p="icon11.png" t="Include" />
+            <e p="icon12.png" t="Include" />
+            <e p="icon13.png" t="Include" />
+            <e p="icon14.png" t="Include" />
+            <e p="icon18.png" t="Include" />
+            <e p="icon19.png" t="Include" />
+            <e p="icon2.png" t="Include" />
+            <e p="icon20.png" t="Include" />
+            <e p="icon21.png" t="Include" />
+            <e p="icon23.png" t="Include" />
+            <e p="icon24.png" t="Include" />
+            <e p="icon29.png" t="Include" />
+            <e p="icon2b.png" t="Include" />
+            <e p="icon3.png" t="Include" />
+            <e p="icon37.png" t="Include" />
+            <e p="icon4.png" t="Include" />
+            <e p="icon5.png" t="Include" />
+            <e p="icon9.png" t="Include" />
+            <e p="icon_detail.png" t="Include" />
+            <e p="icon_heart.png" t="Include" />
+            <e p="icon_order.png" t="Include" />
+            <e p="icon_pop_star2.png" t="Include" />
+            <e p="icon_slid.png" t="Include" />
+            <e p="icon_star2.png" t="Include" />
+            <e p="icon_star3.png" t="Include" />
+            <e p="icon_suc.png" t="Include" />
+            <e p="line2.png" t="Include" />
+            <e p="logo.png" t="Include" />
+            <e p="member-icons.png" t="Include" />
+            <e p="member.png" t="Include" />
+            <e p="memberBg.png" t="Include" />
+            <e p="msj.jpg" t="Include" />
+            <e p="radio.png" t="Include" />
+            <e p="radio1.png" t="Include" />
+            <e p="yhj-2.png" t="Include" />
+            <e p="yhj-line.png" t="Include" />
+            <e p="yhj-line1.png" t="Include" />
+            <e p="yhj.png" t="Include" />
+          </e>
+          <e p="models" t="Include">
+            <e p="AccountModel.cs" t="Include" />
+            <e p="CartModel.cs" t="Include" />
+            <e p="CatalogModel.cs" t="Include" />
+            <e p="CategoryModel.cs" t="Include" />
+            <e p="OrderModel.cs" t="Include" />
+            <e p="StoreModel.cs" t="Include" />
+            <e p="UCenterModel.cs" t="Include" />
+          </e>
+          <e p="obj" t="ExcludeRecursive" />
+          <e p="Properties" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+          <e p="scripts" t="Include">
+            <e p="account.js" t="Include" />
+            <e p="cart.js" t="Include" />
+            <e p="common.js" t="Include" />
+            <e p="jquery.js" t="Include" />
+            <e p="order.js" t="Include" />
+            <e p="product.js" t="Include" />
+            <e p="region.js" t="Include" />
+            <e p="swiper.css" t="Include" />
+            <e p="swiper.js" t="Include" />
+            <e p="ucenter.order.js" t="Include" />
+            <e p="ucenter.safe.js" t="Include" />
+            <e p="ucenter.user.js" t="Include" />
+          </e>
+          <e p="views" t="Include">
+            <e p="_ViewStart.cshtml" t="Include" />
+            <e p="account" t="Include">
+              <e p="findpwd.cshtml" t="Include" />
+              <e p="login.cshtml" t="Include" />
+              <e p="register.cshtml" t="Include" />
+              <e p="resetpwd.cshtml" t="Include" />
+              <e p="selectfindpwdtype.cshtml" t="Include" />
+            </e>
+            <e p="Cart" t="Include">
+              <e p="ajaxindex.cshtml" t="Include" />
+              <e p="index.cshtml" t="Include" />
+            </e>
+            <e p="catalog" t="Include">
+              <e p="category.cshtml" t="Include" />
+              <e p="product.cshtml" t="Include" />
+              <e p="productconsultlist.cshtml" t="Include" />
+              <e p="productdetails.cshtml" t="Include" />
+              <e p="productreviewlist.cshtml" t="Include" />
+              <e p="productsuitlist.cshtml" t="Include" />
+              <e p="search.cshtml" t="Include" />
+              <e p="topic.cshtml" t="Include" />
+            </e>
+            <e p="category" t="Include">
+              <e p="list.cshtml" t="Include" />
+            </e>
+            <e p="home" t="Include">
+              <e p="index.cshtml" t="Include" />
+            </e>
+            <e p="Order" t="Include">
+              <e p="confirmorder.cshtml" t="Include" />
+              <e p="payresult.cshtml" t="Include" />
+              <e p="payshow.cshtml" t="Include" />
+              <e p="submitresult.cshtml" t="Include" />
+            </e>
+            <e p="shared" t="Include">
+              <e p="_footer.cshtml" t="Include" />
+              <e p="_header.cshtml" t="Include" />
+              <e p="_layout.cshtml" t="Include" />
+              <e p="prompt.cshtml" t="Include" />
+            </e>
+            <e p="Store" t="Include">
+              <e p="class.cshtml" t="Include" />
+              <e p="coupontypelist.cshtml" t="Include" />
+              <e p="index.cshtml" t="Include" />
+              <e p="search.cshtml" t="Include" />
+            </e>
+            <e p="ucenter" t="Include">
+              <e p="account.cshtml" t="Include" />
+              <e p="addshipaddress.cshtml" t="Include" />
+              <e p="couponlist.cshtml" t="Include" />
+              <e p="editshipaddress.cshtml" t="Include" />
+              <e p="index.cshtml" t="Include" />
+              <e p="orderactionlist.cshtml" t="Include" />
+              <e p="orderinfo.cshtml" t="Include" />
+              <e p="orderlist.cshtml" t="Include" />
+              <e p="paycredit.cshtml" t="Include" />
+              <e p="revieworder.cshtml" t="Include" />
+              <e p="safesuccess.cshtml" t="Include" />
+              <e p="safeupdate.cshtml" t="Include" />
+              <e p="safeverify.cshtml" t="Include" />
+              <e p="shipaddresslist.cshtml" t="Include" />
+            </e>
+            <e p="Web.config" t="Include" />
+          </e>
+          <e p="Web.config" t="Include" />
+        </e>
+        <e p="models" t="Include">
+          <e p="AccountModel.cs" t="Include" />
+          <e p="CartModel.cs" t="Include" />
+          <e p="CatalogModel.cs" t="Include" />
+          <e p="HelpModel.cs" t="Include" />
+          <e p="NewsModel.cs" t="Include" />
+          <e p="OrderModel.cs" t="Include" />
+          <e p="StoreModel.cs" t="Include" />
+          <e p="UCenterModel.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Plugins" t="Include">
+          <e p="bin" t="Include" />
+          <e p="BrnMall.OAuthPlugin.QQ" t="ExcludeRecursive" />
+          <e p="BrnMall.PayPlugin.Alipay" t="ExcludeRecursive" />
+          <e p="BrnMall.PayPlugin.WeChat" t="ExcludeRecursive" />
+          <e p="Web.config" t="Include" />
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="robots.txt" t="Include" />
+        <e p="scripts" t="Include">
+          <e p="account.js" t="Include" />
+          <e p="common.js" t="Include" />
+          <e p="jquery.jqzoom.css" t="Include" />
+          <e p="jquery.jqzoom.js" t="Include" />
+          <e p="jquery.js" t="Include" />
+          <e p="jquery.soChange.js" t="Include" />
+          <e p="order.js" t="Include" />
+          <e p="product.js" t="Include" />
+          <e p="region.js" t="Include" />
+          <e p="ucenter.order.js" t="Include" />
+          <e p="ucenter.safe.js" t="Include" />
+          <e p="ucenter.user.js" t="Include" />
+        </e>
+        <e p="themes" t="Include">
+          <e p="default" t="Include">
+            <e p="theme.png" t="Include" />
+            <e p="theme.xml" t="Include" />
+            <e p="views" t="Include">
+              <e p="_banner.cshtml" t="Include" />
+              <e p="class.cshtml" t="Include" />
+              <e p="details.cshtml" t="Include" />
+              <e p="index.cshtml" t="Include" />
+              <e p="search.cshtml" t="Include" />
+            </e>
+          </e>
+          <e p="Web.config" t="Include" />
+        </e>
+        <e p="Upload" t="Include">
+          <e p="adv" t="Include" />
+          <e p="brand" t="Include" />
+          <e p="friendlink" t="Include" />
+          <e p="help" t="Include" />
+          <e p="news" t="Include" />
+          <e p="Store" t="Include" />
+          <e p="storerank" t="Include" />
+          <e p="User" t="Include" />
+          <e p="userrank" t="Include" />
+        </e>
+        <e p="views" t="Include">
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="account" t="Include">
+            <e p="findpwd.cshtml" t="Include" />
+            <e p="login.cshtml" t="Include" />
+            <e p="register.cshtml" t="Include" />
+            <e p="resetpwd.cshtml" t="Include" />
+            <e p="selectfindpwdtype.cshtml" t="Include" />
+          </e>
+          <e p="Cart" t="Include">
+            <e p="addsuccess.cshtml" t="Include" />
+            <e p="ajaxindex.cshtml" t="Include" />
+            <e p="fullcutproductlist.cshtml" t="Include" />
+            <e p="fullsendmainproductlist.cshtml" t="Include" />
+            <e p="index.cshtml" t="Include" />
+            <e p="snap.cshtml" t="Include" />
+          </e>
+          <e p="catalog" t="Include">
+            <e p="ajaxproductconsultlist.cshtml" t="Include" />
+            <e p="ajaxproductreviewlist.cshtml" t="Include" />
+            <e p="category.cshtml" t="Include" />
+            <e p="product.cshtml" t="Include" />
+            <e p="productconsultlist.cshtml" t="Include" />
+            <e p="productreviewlist.cshtml" t="Include" />
+            <e p="search.cshtml" t="Include" />
+            <e p="suit.cshtml" t="Include" />
+            <e p="topic.cshtml" t="Include" />
+          </e>
+          <e p="help" t="Include">
+            <e p="question.cshtml" t="Include" />
+          </e>
+          <e p="home" t="Include">
+            <e p="index.cshtml" t="Include" />
+          </e>
+          <e p="news" t="Include">
+            <e p="details.cshtml" t="Include" />
+            <e p="list.cshtml" t="Include" />
+          </e>
+          <e p="Order" t="Include">
+            <e p="confirmorder.cshtml" t="Include" />
+            <e p="payresult.cshtml" t="Include" />
+            <e p="payshow.cshtml" t="Include" />
+            <e p="submitresult.cshtml" t="Include" />
+          </e>
+          <e p="shared" t="Include">
+            <e p="_footer.cshtml" t="Include" />
+            <e p="_header.cshtml" t="Include" />
+            <e p="_layout.cshtml" t="Include" />
+            <e p="prompt.cshtml" t="Include" />
+          </e>
+          <e p="ucenter" t="Include">
+            <e p="_menu.cshtml" t="Include" />
+            <e p="applyorderafterservice.cshtml" t="Include" />
+            <e p="couponlist.cshtml" t="Include" />
+            <e p="favoriteproductlist.cshtml" t="Include" />
+            <e p="favoritestorelist.cshtml" t="Include" />
+            <e p="orderafterservice.cshtml" t="Include" />
+            <e p="orderinfo.cshtml" t="Include" />
+            <e p="orderlist.cshtml" t="Include" />
+            <e p="orderproductafterservicelist.cshtml" t="Include" />
+            <e p="paycreditloglist.cshtml" t="Include" />
+            <e p="productconsultlist.cshtml" t="Include" />
+            <e p="productreviewlist.cshtml" t="Include" />
+            <e p="revieworder.cshtml" t="Include" />
+            <e p="safeinfo.cshtml" t="Include" />
+            <e p="safesuccess.cshtml" t="Include" />
+            <e p="safeupdate.cshtml" t="Include" />
+            <e p="safeverify.cshtml" t="Include" />
+            <e p="sendorderafterservice.cshtml" t="Include" />
+            <e p="shipaddresslist.cshtml" t="Include" />
+            <e p="userinfo.cshtml" t="Include" />
+          </e>
+          <e p="Web.config" t="Include" />
+        </e>
+        <e p="watermarks" t="Include" />
+        <e p="Web.config" t="Include" />
+      </e>
+      <e p="Presentation\BrnMall.Web.Framework" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BrnMall.Web.Framework.csproj" t="IncludeRecursive" />
+        <e p="controllers" t="Include">
+          <e p="BaseAppController.cs" t="Include" />
+          <e p="BaseController.cs" t="Include" />
+          <e p="BaseMallAdminController.cs" t="Include" />
+          <e p="BaseMobileController.cs" t="Include" />
+          <e p="BaseStoreAdminController.cs" t="Include" />
+          <e p="BaseWebController.cs" t="Include" />
+        </e>
+        <e p="ImageResult.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Pager" t="Include">
+          <e p="Base" t="Include">
+            <e p="PageModel.cs" t="Include" />
+            <e p="Pager.cs" t="Include" />
+          </e>
+          <e p="MallAdminPager.cs" t="Include" />
+          <e p="PagerHtmlExtension.cs" t="Include" />
+          <e p="StoreAdminPager.cs" t="Include" />
+          <e p="WebPager.cs" t="Include" />
+        </e>
+        <e p="PromptModel.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Theme" t="Include">
+          <e p="ThemeBuildManagerViewEngine .cs" t="Include" />
+          <e p="ThemeRazorViewEngine.cs" t="Include" />
+          <e p="ThemeVirtualPathProviderViewEngine.cs" t="Include" />
+        </e>
+        <e p="Validators" t="Include">
+          <e p="EmailAttribute.cs" t="Include" />
+          <e p="IdCardAttribute.cs" t="Include" />
+          <e p="MobileAttribute.cs" t="Include" />
+          <e p="NotLess" t="Include">
+            <e p="DateTimeNotLessAttribute.cs" t="Include" />
+            <e p="DecimailNotLessAttribute.cs" t="Include" />
+            <e p="IntNotLessAttribute.cs" t="Include" />
+          </e>
+          <e p="PhoneAttribute.cs" t="Include" />
+          <e p="UrlAttribute.cs" t="Include" />
+          <e p="ZipCodeAttribute.cs.cs" t="Include" />
+        </e>
+        <e p="ViewPages" t="Include">
+          <e p="AppViewPage.cs" t="Include" />
+          <e p="MallAdminViewPage.cs" t="Include" />
+          <e p="MobileViewPage.cs" t="Include" />
+          <e p="StoreAdminViewPage.cs" t="Include" />
+          <e p="WebViewPage.cs" t="Include" />
+        </e>
+        <e p="WorkContext" t="Include">
+          <e p="AppWorkContext.cs" t="Include" />
+          <e p="MallAdminWorkContext.cs" t="Include" />
+          <e p="MobileWorkContext.cs" t="Include" />
+          <e p="StoreAdminWorkContext.cs" t="Include" />
+          <e p="WebWorkContext.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Strategies\BrnMall.AsynStrategy.ThreadPool" t="IncludeRecursive">
+        <e p="AsynStrategy.cs" t="Include" />
+        <e p="BrnMall.AsynStrategy.ThreadPool.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Strategies\BrnMall.CacheStrategy.AspNet" t="IncludeRecursive">
+        <e p="BrnMall.CacheStrategy.AspNet.csproj" t="IncludeRecursive" />
+        <e p="CacheStrategy.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Strategies\BrnMall.CartStrategy.SqlServer" t="IncludeRecursive">
+        <e p="BrnMall.CartStrategy.SqlServer.csproj" t="IncludeRecursive" />
+        <e p="CartStrategy.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Strategies\BrnMall.ConfigStrategy.File" t="IncludeRecursive">
+        <e p="BrnMall.ConfigStrategy.File.csproj" t="IncludeRecursive" />
+        <e p="ConfigStrategy.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Strategies\BrnMall.EmailStrategy.DotNet" t="IncludeRecursive">
+        <e p="BrnMall.EmailStrategy.DotNet.csproj" t="IncludeRecursive" />
+        <e p="EmailStrategy.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Strategies\BrnMall.EventStrategy.Timer" t="IncludeRecursive">
+        <e p="BrnMall.EventStrategy.Timer.csproj" t="IncludeRecursive" />
+        <e p="BrowseHistoryEvent.cs" t="Include" />
+        <e p="CartEvent.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="OrderEvent.cs" t="Include" />
+        <e p="ProductReviewCountEvent.cs" t="Include" />
+        <e p="ProductSaleCountEvent.cs" t="Include" />
+        <e p="ProductVisitCountEvent.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="SQLEvent.cs" t="Include" />
+        <e p="StoreReviewEvent.cs" t="Include" />
+        <e p="TimeProductEvent.cs" t="Include" />
+      </e>
+      <e p="Strategies\BrnMall.IPSeekStrategy.IPFile" t="IncludeRecursive">
+        <e p="BrnMall.IPSeekStrategy.IPFile.csproj" t="IncludeRecursive" />
+        <e p="IPSeekStrategy.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Strategies\BrnMall.LogStrategy.Txt" t="IncludeRecursive">
+        <e p="BrnMall.LogStrategy.Txt.csproj" t="IncludeRecursive" />
+        <e p="LogStrategy.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Strategies\BrnMall.OrderStrategy.SqlServer" t="IncludeRecursive">
+        <e p="BrnMall.OrderStrategy.SqlServer.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="OrderStrategy.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Strategies\BrnMall.RandomStrategy.BrnMall" t="IncludeRecursive">
+        <e p="BrnMall.RandomStrategy.BrnMall.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="RandomStrategy.cs" t="Include" />
+      </e>
+      <e p="Strategies\BrnMall.RDBSStrategy.SqlServer" t="IncludeRecursive">
+        <e p="BrnMall.RDBSStrategy.SqlServer.csproj" t="IncludeRecursive" />
+        <e p="MallStrategy.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="OrderStrategy.cs" t="Include" />
+        <e p="ProductStrategy.cs" t="Include" />
+        <e p="PromotionStrategy.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="RDBSStrategy.cs" t="Include" />
+        <e p="StoreStrategy.cs" t="Include" />
+        <e p="TableFields.cs" t="Include" />
+        <e p="UserStrategy.cs" t="Include" />
+      </e>
+      <e p="Strategies\BrnMall.SearchStrategy.SqlServer" t="IncludeRecursive">
+        <e p="BrnMall.SearchStrategy.SqlServer.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="SearchStrategy.cs" t="Include" />
+      </e>
+      <e p="Strategies\BrnMall.SessionStrategy.AspNetCache" t="IncludeRecursive">
+        <e p="BrnMall.SessionStrategy.AspNetCache.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="SessionStrategy.cs" t="Include" />
+      </e>
+      <e p="Strategies\BrnMall.SMSStrategy.BrnMall" t="IncludeRecursive">
+        <e p="BrnMall.SMSStrategy.BrnMall.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="SMSStrategy.cs" t="Include" />
+      </e>
+      <e p="Strategies\BrnMall.UploadStrategy.LocalServer" t="IncludeRecursive">
+        <e p="BrnMall.UploadStrategy.LocalServer.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="UploadStrategy.cs" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>
